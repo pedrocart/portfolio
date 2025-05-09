@@ -4,7 +4,7 @@
 /* Last updated: May 2025 */
 
 /***************************************************************/
-/* Global Styles */ 
+/* Global Styles */
 /***************************************************************/
 
 body {
@@ -204,7 +204,7 @@ HEADER
     color: black;
     background-color: yellow;
     padding: 12px 20px;
-    float:left;
+    float: left;
 }
 
 #hero p {
@@ -218,7 +218,8 @@ HEADER
 }
 
 .hero-content .code-block {
-    margin: 40px 0px; /* Added top margin for better spacing from buttons */
+    margin: 40px 0px;
+    /* Added top margin for better spacing from buttons */
 }
 
 /* Code Block Styles */
@@ -232,18 +233,43 @@ HEADER
     font-size: 14px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 1);
 }
-/* Span Styles */
-span.date { float: right; }
-span.copyright { float: right; margin-top: 36px; margin-right: -12px; font-style: italic; font-size: 14px; font-weight: 300; }
 
-span.function { color: #c678dd; }
-span.keyword { color: #7CDCFE; }
-span.variable { color: #569CD6; }
-span.openings { color: #1B8FFF;}
-span.comment { color: #98c379; }
-span.string { color: #d19a66; }
-span.name { color: #d1d166; }
-span.operator { color: #ffff00; }
+/* Span Styles */
+span.date {
+    float: right;
+}
+
+span.function {
+    color: #c678dd;
+}
+
+span.keyword {
+    color: #7CDCFE;
+}
+
+span.variable {
+    color: #569CD6;
+}
+
+span.openings {
+    color: #1B8FFF;
+}
+
+span.comment {
+    color: #98c379;
+}
+
+span.string {
+    color: #d19a66;
+}
+
+span.name {
+    color: #d1d166;
+}
+
+span.operator {
+    color: #ffff00;
+}
 
 .slide h2 {
     font-size: 28px;
@@ -290,7 +316,7 @@ span.operator { color: #ffff00; }
     color: black;
     background-color: yellow;
     padding: 12px 20px;
-    float:left;
+    float: left;
 
 }
 
@@ -354,7 +380,7 @@ SKILLS
     border-radius: 6px;
     overflow: hidden;
     margin-top: 20px;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .progress {
@@ -377,7 +403,8 @@ SKILLS
 
 .progress {
     height: 100%;
-    width: 1%; /* This will be overridden by the inline style in HTML */
+    width: 1%;
+    /* This will be overridden by the inline style in HTML */
     background: inherit;
     transition: all 0.3s ease;
     transform: scaleX(0);
@@ -410,42 +437,42 @@ SKILLS
 
 .card:nth-child(2) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(3) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(4) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(5) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(6) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(7) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(8) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card:nth-child(9) .inner-card .progress-bar {
     background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -465,19 +492,17 @@ SKILLS
 }
 
 .card:hover:nth-child(2) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(225, 77, 67, 0.7) 0%,
-        rgba(225, 77, 67, 0.8) 50%,
-        rgba(225, 77, 67, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(225, 77, 67, 0.7) 0%,
+            rgba(225, 77, 67, 0.8) 50%,
+            rgba(225, 77, 67, 0.9) 100%);
 }
 
 .card:nth-child(2) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(225, 77, 67, 0.7) 0%,
-        rgba(225, 77, 67, 0.8) 50%,
-        rgba(225, 77, 67, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(225, 77, 67, 0.7) 0%,
+            rgba(225, 77, 67, 0.8) 50%,
+            rgba(225, 77, 67, 0.9) 100%);
 }
 
 
@@ -497,19 +522,17 @@ SKILLS
 }
 
 .card:hover:nth-child(3) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(41, 98, 255, 0.7) 0%,
-        rgba(41, 98, 255, 0.8) 50%,
-        rgba(41, 98, 255, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(41, 98, 255, 0.7) 0%,
+            rgba(41, 98, 255, 0.8) 50%,
+            rgba(41, 98, 255, 0.9) 100%);
 }
 
 .card:nth-child(3) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(41, 98, 255, 0.7) 0%,
-        rgba(41, 98, 255, 0.8) 50%,
-        rgba(41, 98, 255, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(41, 98, 255, 0.7) 0%,
+            rgba(41, 98, 255, 0.8) 50%,
+            rgba(41, 98, 255, 0.9) 100%);
 }
 
 
@@ -529,19 +552,17 @@ SKILLS
 }
 
 .card:hover:nth-child(4) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(253, 216, 53, 0.7) 0%,
-        rgba(253, 216, 53, 0.8) 50%,
-        rgba(253, 216, 53, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(253, 216, 53, 0.7) 0%,
+            rgba(253, 216, 53, 0.8) 50%,
+            rgba(253, 216, 53, 0.9) 100%);
 }
 
 .card:nth-child(4) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(253, 216, 53, 0.7) 0%,
-        rgba(253, 216, 53, 0.8) 50%,
-        rgba(253, 216, 53, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(253, 216, 53, 0.7) 0%,
+            rgba(253, 216, 53, 0.8) 50%,
+            rgba(253, 216, 53, 0.9) 100%);
 }
 
 
@@ -560,19 +581,17 @@ SKILLS
 }
 
 .card:hover:nth-child(5) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(97, 218, 251, 0.7) 0%,
-        rgba(97, 218, 251, 0.8) 50%,
-        rgba(97, 218, 251, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(97, 218, 251, 0.7) 0%,
+            rgba(97, 218, 251, 0.8) 50%,
+            rgba(97, 218, 251, 0.9) 100%);
 }
 
 .card:nth-child(5) .inner-card .progress {
-    background: linear-gradient(90deg, 
-        rgba(97, 218, 251, 0.7) 0%,
-        rgba(97, 218, 251, 0.8) 50%,
-        rgba(97, 218, 251, 0.9) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(97, 218, 251, 0.7) 0%,
+            rgba(97, 218, 251, 0.8) 50%,
+            rgba(97, 218, 251, 0.9) 100%);
 }
 
 /* Sixth Child - React */
@@ -590,19 +609,17 @@ SKILLS
 }
 
 .card:hover:nth-child(6) .inner-card .progress {
-    background: linear-gradient(180deg, 
-    rgba(97, 218, 251, 0.7) 0%,
-    rgba(97, 218, 251, 0.8) 50%,
-    rgba(97, 218, 251, 0.9) 100%
-);
+    background: linear-gradient(180deg,
+            rgba(97, 218, 251, 0.7) 0%,
+            rgba(97, 218, 251, 0.8) 50%,
+            rgba(97, 218, 251, 0.9) 100%);
 }
 
 .card:nth-child(6) .inner-card .progress {
-    background: linear-gradient(180deg, 
-    rgba(97, 218, 251, 0.7) 0%,
-    rgba(97, 218, 251, 0.8) 50%,
-    rgba(97, 218, 251, 0.9) 100%
-);
+    background: linear-gradient(180deg,
+            rgba(97, 218, 251, 0.7) 0%,
+            rgba(97, 218, 251, 0.8) 50%,
+            rgba(97, 218, 251, 0.9) 100%);
 }
 
 
@@ -621,19 +638,17 @@ SKILLS
 }
 
 .card:hover:nth-child(7) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(95, 237, 131, 0.7) 0%,
-    rgba(95, 237, 131, 0.8) 50%,
-    rgba(95, 237, 131, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(95, 237, 131, 0.7) 0%,
+            rgba(95, 237, 131, 0.8) 50%,
+            rgba(95, 237, 131, 0.9) 100%);
 }
 
 .card:nth-child(7) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(95, 237, 131, 0.7) 0%,
-    rgba(95, 237, 131, 0.8) 50%,
-    rgba(95, 237, 131, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(95, 237, 131, 0.7) 0%,
+            rgba(95, 237, 131, 0.8) 50%,
+            rgba(95, 237, 131, 0.9) 100%);
 }
 
 /* Eighth Child - Adobe Creative Cloud */
@@ -651,19 +666,17 @@ SKILLS
 }
 
 .card:hover:nth-child(8) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(214, 30, 37, 0.7) 0%,
-    rgba(214, 30, 37, 0.8) 50%,
-    rgba(214, 30, 37, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(214, 30, 37, 0.7) 0%,
+            rgba(214, 30, 37, 0.8) 50%,
+            rgba(214, 30, 37, 0.9) 100%);
 }
 
 .card:nth-child(8) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(214, 30, 37, 0.7) 0%,
-    rgba(214, 30, 37, 0.8) 50%,
-    rgba(214, 30, 37, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(214, 30, 37, 0.7) 0%,
+            rgba(214, 30, 37, 0.8) 50%,
+            rgba(214, 30, 37, 0.9) 100%);
 }
 
 /* Ninth Child - Continuous Learning */
@@ -681,19 +694,17 @@ SKILLS
 }
 
 .card:hover:nth-child(9) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(74, 20, 140, 0.7) 0%,
-    rgba(74, 20, 140, 0.8) 50%,
-    rgba(74, 20, 140, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(74, 20, 140, 0.7) 0%,
+            rgba(74, 20, 140, 0.8) 50%,
+            rgba(74, 20, 140, 0.9) 100%);
 }
 
 .card:nth-child(9) .inner-card .progress {
-    background: linear-gradient(90deg, 
-    rgba(74, 20, 140, 0.7) 0%,
-    rgba(74, 20, 140, 0.8) 50%,
-    rgba(74, 20, 140, 0.9) 100%
-);
+    background: linear-gradient(90deg,
+            rgba(74, 20, 140, 0.7) 0%,
+            rgba(74, 20, 140, 0.8) 50%,
+            rgba(74, 20, 140, 0.9) 100%);
 }
 
 
@@ -708,36 +719,33 @@ DESTAQUE
     margin-top: 20px;
 }
 
-.destaque-item button {
-    padding: 25px 15px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.destaque-item a {
-    text-decoration: none;
-    color: #333;
-}
-
-.destaque-item a:hover button {
-    color: #f2f2f2;
-    text-decoration: underline;
-}
-
 #destaque .destaque-area {
-    display: table;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    max-width: 700px;
 }
 
 #destaque .destaque-logo {
-    padding: 12px 0px
+    padding: 0px 20px;
+    float: left;
 }
 
-#destaque .destaque-item {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    height: 200px;;
+#destaque .destaque-area {
+    text-align: left;
 }
+
+#destaque .destaque-area h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+#destaque .destaque-area p {
+    font-size: 16px;
+    color: #666;
+}
+
 
 /***********************************
 PROJECTS
@@ -772,7 +780,7 @@ PROJECTS
     /* border-radius: 12px; */
     margin-bottom: -18px;
     font-family: 'Fira Code', monospace;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
 
 }
@@ -830,7 +838,7 @@ PROJECTS
 }
 
 .project-info {
-    padding: 30px;
+    padding: 30px 30px 1px 30px;
     background: #282c34;
     color: #abb2bf;
     position: relative;
@@ -843,17 +851,16 @@ PROJECTS
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(transparent, rgba(0,0,0,0.5));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
     pointer-events: none;
 }
 
 .project-description {
     margin-bottom: 20px;
-    font-size: 0.9em;
+    font-size: 12px;
     line-height: 1.6;
     color: #e1eaf9;
     position: relative;
-    z-index: 1;
 }
 
 .project-description p {
@@ -867,8 +874,15 @@ PROJECTS
     text-align: justify;
 }
 
-.project-description strong {
-    color: #c678dd;
+.project-description p.code {
+    font-family: 'Fira Code', monospace;
+    text-align: left;
+    font-size: 13px;
+}
+
+.project-description p.comment {
+    color: #98c379;
+    margin-bottom: 15px;
 }
 
 .project-description code {
@@ -879,13 +893,21 @@ PROJECTS
     color: #61afef;
 }
 
-.project-description {
-    margin-bottom: 20px;
-    font-size: 0.9em;
-    line-height: 1.6;
-    color: #abb2bf;
+.project-description span.copyright {
+    float: left;
+    margin-top: 12px;
+    margin-left: -12px;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
 }
 
+.project-description span.date {
+    font-size: 12px;
+    color:#b3b3b3;
+    position: relative;
+    top: 2px;
+}
 
 /************************************
 FOOTER
@@ -914,7 +936,7 @@ FOOTER
     font-size: 18px;
     transition: all 0.3s ease;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .go-up-btn:hover {
@@ -993,7 +1015,7 @@ FOOTER
 
 .social-links a {
     padding-right: 6px;
-    display: inline-block;  
+    display: inline-block;
     margin-bottom: 10px;
 }
 
