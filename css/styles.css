@@ -746,6 +746,30 @@ DESTAQUE
     color: #666;
 }
 
+.numbers-holder {
+    min-width: 300px;
+    margin: 15px auto;
+    padding-left: 125px;
+}
+
+.numbers-holder .number-item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.numbers-holder .number-item .number {
+    font-size: 64px;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+    left: 12px;
+}
+
+.numbers-holder .number-item .text {
+    font-size: 16px;
+    color: #666;
+}
 
 /***********************************
 PROJECTS
@@ -1114,5 +1138,13 @@ RESPONSIVE
 
     .logo-photo {
         margin-top: 0;
+    }
+
+    .numbers-holder {
+        padding-left: 0px;
+    }
+
+    .numbers-holder .number-item .number {
+        left: 9px;
     }
 }
