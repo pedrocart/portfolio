@@ -261,19 +261,6 @@ span.operator {
     color: #ffff00;
 }
 
-.slide h2 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.slide p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #666;
-}
-
 .navigation {
     position: absolute;
     bottom: 20px;
