@@ -40,11 +40,6 @@ HEADER
     background-size: cover;
 }
 
-.red {
-    background-color: rgb(94, 133, 134);
-    min-height: 150px;
-}
-
 .nav-holder {
     background-color: #333;
     height: 75px;
@@ -196,15 +191,6 @@ HEADER
 
 #hero {
     margin-bottom: 75px;
-}
-
-#hero h2 {
-    font-size: 21px;
-    font-weight: 300;
-    color: black;
-    background-color: yellow;
-    padding: 12px 20px;
-    float: left;
 }
 
 #hero p {
